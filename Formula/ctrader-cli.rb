@@ -1,4 +1,4 @@
-﻿class CtraderCli < Formula
+class CtraderCli < Formula
   desc "Headless command-line client for the cTrader trading platform"
   homepage "https://ctrader.com/"
   version "5.9.0"
@@ -12,6 +12,17 @@
     on_arm do
       url "https://getctrader.spotware.com/cli/homebrew/ctrader-cli-5.9.0-linux-arm64.tar.gz"
       sha256 "4fd85eb2f1f8bccc58fa505b09df5ecef76bf9ad4e1427f09f3aa0223df2315c"
+    end
+  end
+
+  on_macos do
+    on_arm do
+      url "https://getctrader.spotware.com/cli/homebrew/ctrader-cli-5.9.0.1-osx-arm64.tar.gz"
+      sha256 "71bfb51db05aac75dcfeb5818e8ca0653b7e522318080a504351db97db83d3b7"
+    end
+    on_intel do
+      url "https://getctrader.spotware.com/cli/homebrew/ctrader-cli-5.9.0.1-osx-x64.tar.gz"
+      sha256 "7f47af0573bd6c30bf0e28cad7bb651b5400978a2dd876295e3abf720b19e911"
     end
   end
 
