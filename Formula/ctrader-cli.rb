@@ -18,11 +18,11 @@ class CtraderCli < Formula
   on_macos do
     on_arm do
       url "https://getctrader.spotware.com/cli/homebrew/ctrader-cli-5.9.0-osx-arm64.tar.gz"
-      sha256 "7ba5cacdb3b9e67374181b9cb9b64ab8bb0603713c99665102839c68d328ff7b"
+      sha256 "f347b3df642486914bd158cebe7c1aa6157d467cecb8465f5cd4a1c924e468b6"
     end
     on_intel do
       url "https://getctrader.spotware.com/cli/homebrew/ctrader-cli-5.9.0-osx-x64.tar.gz"
-      sha256 "492d5d9ebbcda056edee2888c3a5517f1904349e57d72899f0efd71653ad98a0"
+      sha256 "4acd1eda4c79b57514ae91ec25c2c5f9cbc90099be2d8538a51844970bcfead9"
     end
   end
 
