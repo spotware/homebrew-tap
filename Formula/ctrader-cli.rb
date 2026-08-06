@@ -15,6 +15,17 @@
     end
   end
 
+  on_macos do
+    on_arm do
+      url "https://getctrader.spotware.com/cli/homebrew/ctrader-cli-5.9.0-osx-arm64.tar.gz"
+      sha256 "372527de8713dafa40d2f13843478d172faae9b4fdfddb7ac438aceea9afffbe"
+    end
+    on_intel do
+      url "https://getctrader.spotware.com/cli/homebrew/ctrader-cli-5.9.0-osx-x64.tar.gz"
+      sha256 "707636720636915461c21f2cd71e5a302abadeffb20846649fca85b6c2e9f679"
+    end
+  end
+
   def install
     libexec.install Dir["*"]
 
