@@ -7,22 +7,11 @@
   on_linux do
     on_intel do
       url "https://getctrader.spotware.com/cli/homebrew/ctrader-cli-5.9.0-linux-x64.tar.gz"
-      sha256 "50d5c04753bdd55c230062bfa1e5d6c89dc5c1e4daf302c1cd73453061c67532"
+      sha256 "db335b2e1cc9a1d8f1444aea4d853da905d2ab10ba61ac953447f68cbc3a78b1"
     end
     on_arm do
       url "https://getctrader.spotware.com/cli/homebrew/ctrader-cli-5.9.0-linux-arm64.tar.gz"
-      sha256 "c0633ce8b03207025de49cade80381b6fb01490ac8d73997eef948522841ffa4"
-    end
-  end
-
-  on_macos do
-    on_arm do
-      url "https://getctrader.spotware.com/cli/homebrew/ctrader-cli-5.9.0-osx-arm64.tar.gz"
-      sha256 "372527de8713dafa40d2f13843478d172faae9b4fdfddb7ac438aceea9afffbe"
-    end
-    on_intel do
-      url "https://getctrader.spotware.com/cli/homebrew/ctrader-cli-5.9.0-osx-x64.tar.gz"
-      sha256 "707636720636915461c21f2cd71e5a302abadeffb20846649fca85b6c2e9f679"
+      sha256 "835834d1be9f2702225c6fa4d19af6600161422a7987c43993d37c9fe57d6900"
     end
   end
 
